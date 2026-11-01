@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+storage/
+faiss_index/
+
+*.db
+*.sqlite3
+
+.streamlit/secrets.toml
+.vscode/
